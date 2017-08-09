@@ -1,2 +1,2 @@
-#[H] 493. Reverse Pairs
-> Goto <a href="https://leetcode.com/problems/reverse-pairs/description/">493. Reverse Pairs</a>
+# [H] 493. Reverse Pairs
+> Goto [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/description/)

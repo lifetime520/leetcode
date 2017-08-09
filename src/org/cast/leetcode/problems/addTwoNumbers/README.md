@@ -1,2 +1,2 @@
-#[M] 2. Add Two Numbers
-> Goto <a href="https://leetcode.com/problems/add-two-numbers/description/">2. Add Two Numbers</a>
+# [M] 2. Add Two Numbers
+> Goto [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
