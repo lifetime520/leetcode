@@ -1,2 +1,2 @@
-# [E] 38. Count and Say
-> Goto [38. Count and Say](https://leetcode.com/problems/count-and-say/description/)
+# [E] 217. Contains Duplicate
+> Goto [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
