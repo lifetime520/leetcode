@@ -1,22 +1,33 @@
 package org.cast.leetcode.problems.countAndSay;
 
 public class Solution {
-	int[] counting = new int[10];
 	public String countAndSay(int n) {
-		if (n == 0) counting[0]++;
-		while (n > 0) {
-			int i = n % 10;
-			counting[i]++;
-			n /= 10;
+		String ans = "1";
+		for (int i = n; i > 1; i--) {
+			ans = countAndSay(ans);
 		}
+		return ans;
+	}
+
+	public String countAndSay(String n) {
+		int idx = 0;
+		char tmp = 0;
+		int counting = 0;
 		StringBuilder sb = new StringBuilder();
-		for (int i = 9; i >= 0; i--) {
-			if (counting[i] == 0) {
-				continue;
+		while (n.length() != idx) {
+			char c = n.charAt(idx++);
+			if (c == tmp || tmp == 0) {
+				counting++;
 			} else {
-				sb.append(counting[i]).append(i);
+				sb.append(counting).append(tmp);
+				counting = 1;
 			}
+			tmp = c;
 		}
+		if (counting != 0) {
+			sb.append(counting).append(tmp);
+		}
+//		System.out.println(n + " => " + sb.toString());
 		return sb.toString();
 	}
 }
