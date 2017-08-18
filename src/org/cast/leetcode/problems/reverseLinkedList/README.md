@@ -1,2 +1,2 @@
 # [E] 206. Reverse Linked List
-> Goto [206. Reverse Linked Listg](https://leetcode.com/problems/reverse-linked-list/description/)
+> Goto [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
