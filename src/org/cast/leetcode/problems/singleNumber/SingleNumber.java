@@ -7,7 +7,9 @@ public class SingleNumber {
 
 	public static void main(String[] args) {
 		System.out.println(new Solution().singleNumber(PATTERN_1)); // 3
+
 		System.out.println(new Solution().singleNumber(PATTERN_2)); // -1
+
 		System.out.println(new Solution().singleNumber(PATTERN_3)); // 4
 	}
 }
