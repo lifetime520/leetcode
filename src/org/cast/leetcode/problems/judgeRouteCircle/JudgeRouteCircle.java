@@ -13,6 +13,6 @@ public class JudgeRouteCircle {
 
 		System.out.println(new Solution().judgeCircle(PATTERN_3)); // true
 
-		System.out.println(new Solution().judgeCircle(PATTERN_4)); // true
+		System.out.println(new Solution().judgeCircle(PATTERN_4)); // false
 	}
 }

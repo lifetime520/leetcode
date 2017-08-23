@@ -4,12 +4,16 @@ public class BinaryWatch {
 	public static int PATTERN_1 = 0;
 	public static int PATTERN_2 = 1;
 	public static int PATTERN_3 = 2;
+	public static int PATTERN_4 = 3;
+	public static int PATTERN_5 = 4;
+	public static int PATTERN_6 = 5;
+	public static int PATTERN_7 = 6;
 
 	public static void main(String[] args) {
 		// ["0:00"]
 		System.out.println(new Solution().readBinaryWatch(PATTERN_1));
 
-		// ["1:00", "2:00", "4:00", "8:00", "0:01", "0:02", "0:04", "0:08", "0:16", "0:32"]
+		// ["0:01","0:02","0:04","0:08","0:16","0:32","1:00","2:00","4:00","8:00"]
 		System.out.println(new Solution().readBinaryWatch(PATTERN_2));
 
 		// [["0:03","0:05","0:06","0:09","0:10","0:12","0:17","0:18","0:20"
@@ -18,5 +22,13 @@ public class BinaryWatch {
 		//  ,"3:00","4:01","4:02","4:04","4:08","4:16","4:32","5:00","6:00"
 		//  ,"8:01","8:02","8:04","8:08","8:16","8:32","9:00","10:00"]]
 		System.out.println(new Solution().readBinaryWatch(PATTERN_3));
+
+		System.out.println(new Solution().readBinaryWatch(PATTERN_4));
+
+		System.out.println(new Solution().readBinaryWatch(PATTERN_5));
+
+		System.out.println(new Solution().readBinaryWatch(PATTERN_6));
+
+		System.out.println(new Solution().readBinaryWatch(PATTERN_7));
 	}
 }
