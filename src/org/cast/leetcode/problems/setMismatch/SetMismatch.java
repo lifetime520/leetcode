@@ -1,4 +1,4 @@
-package org.cast.leetcode.articles.setMismatch;
+package org.cast.leetcode.problems.setMismatch;
 
 import java.util.Arrays;
 
